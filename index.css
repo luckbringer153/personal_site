@@ -1,0 +1,197 @@
+* {
+    box-sizing:border-box;
+    font-family:'Georgia';
+}
+
+body {
+    margin:0 auto;
+    max-width:90%;
+    background-color:rgb(77, 88, 110);
+}
+
+/* link formatting */
+header a {
+    color: rgb(0, 0, 0);
+    background-color:transparent;
+    text-decoration:none;
+    transition: all .3s;
+    padding:30px;
+}
+
+header a:visited {
+    color:rgb(0, 0, 0);
+    background-color:transparent;
+    text-decoration:none;
+}
+
+header a:hover {
+    color: rgb(226, 226, 226);
+    background-color:transparent;
+    text-decoration:none;
+    background:rgb(53, 82, 124);
+}
+
+/* header formatting */
+.dropdown button, .dropdown-content {
+    display:none;
+}
+
+header {
+    background-color:rgb(226, 226, 226);
+    display:flex;
+}
+
+.nameAndNav {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-grow:50;
+    
+}
+
+.name {
+    font-family:'lucida handwriting';
+    font-size:30px;
+    padding-left:15px;
+}
+
+.nameAndNav nav {
+    display:flex;
+}
+
+/* mobile mode */
+@media screen and (max-width:800px) {
+
+    /* dropdown menu */
+    .dropdown button {
+        display:flex;
+        padding:10px;
+        cursor:pointer;
+    }
+    
+    .material-icons:hover, .material-icons:focus {
+        background-color: rgb(53, 82, 124);
+        color:white;
+    }
+
+    .dropdown {
+        position:relative;
+        text-align:center;
+        float:right;
+        margin-right:20px;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(238, 238, 238);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
+        z-index: 1;
+        right:0;
+        overflow:auto;
+    }
+
+    .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding:20px;
+    }
+
+    .dropdown-content a:hover {
+        background-color:rgb(53, 82, 124);
+        color:rgb(226, 226, 226);
+    }
+
+    .show {
+        display:block;
+    }
+
+    header a {
+        display:none;
+    }
+
+    main {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .quote {
+        margin-bottom:30px;
+        justify-content:center;
+    }
+
+    .profpic img {
+        height:405px;
+        width:auto;
+        border: 5px rgb(75, 34, 34) outset;
+        margin-bottom:30px;
+        margin-right:20px;
+    }
+}
+
+/* for About Me and My Portfolio pages */
+.hi-there {     
+    align-items:flex-start;
+    flex-direction:column;
+    padding:22px;
+}
+
+.hi-there a:visited {
+    background-color:transparent;
+    text-decoration:none;
+    color:rgb(28, 28, 207);
+}
+
+/* main formatting */
+main {
+    background-color:rgb(132, 158, 197);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left:20px;
+}
+
+video {
+    margin-bottom:20px;
+}
+
+@media screen and (max-width:800px) {
+    video {
+        width:385px;
+    }
+}
+
+.quote {
+    height:100px;
+    width:460px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    padding-right:10px;
+}
+
+@media screen and (min-width:800px) {
+    .profpic img {
+        border: 5px rgb(75, 34, 34) outset;
+        height:617px;
+        width:auto;
+    }
+}
+
+/* footer formatting */
+footer {
+    text-align:center;
+    background-color:rgb(226, 226, 226);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+footer a img:hover {
+    border:none;
+    text-decoration:none;
+    opacity:.8;
+    background-color:none;
+}
