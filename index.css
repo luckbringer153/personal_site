@@ -156,6 +156,7 @@ main {
 
 video {
   margin-bottom: 20px;
+  margin-left: 60px;
 }
 
 @media screen and (max-width: 800px) {
@@ -179,6 +180,12 @@ video {
     height: 617px;
     width: auto;
   }
+}
+
+ul {
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 40px;
 }
 
 /* footer formatting */
