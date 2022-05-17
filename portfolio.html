@@ -49,7 +49,7 @@
         <aside class="projectBlurb">
           <div class="details">
             <h4 class="blurbTitle">
-              Fullstack Academy Capstone Project: "Plant-O-Licious"
+              "Plant-O-Licious": Fullstack Academy Capstone Project
             </h4>
             <ul>
               <li>
@@ -72,11 +72,54 @@
               </li>
               <li>
                 unfortunately, persistent issues with deploying our site through
-                the program "Heroku" prevented the creation of a shareable URL -
-                I've attached a video to showcase our site's functionality
-                instead
+                the program "Heroku" prevented the creation of a shareable URL
               </li>
             </ul>
+          </div>
+          <!-- within this section of three pictures, each can be clicked to bring up its "modal" -->
+          <div class="capstonePicturesSection">
+            <aside>
+              <img
+                src="./Assets/CapstoneSite - homepage.jpg"
+                alt="Home Page"
+                class="capstonePic"
+                id="img1"
+                onclick="showModal1()"
+              />
+              <div id="modal1">
+                <span class="close" onclick="closeModal1()">&times;</span>
+                <img class="modal-pic" id="imgm1" />
+                <div id="caption">Home Page</div>
+              </div>
+            </aside>
+            <aside>
+              <img
+                src="./Assets/CapstoneSite - productspage.jpg"
+                alt="Products Page"
+                class="capstonePic"
+                id="img2"
+                onclick="showModal2()"
+              />
+              <div id="modal2">
+                <span class="close" onclick="closeModal2()">&times;</span>
+                <img class="modal-pic" id="imgm2" />
+                <div id="caption">Products Page</div>
+              </div>
+            </aside>
+            <aside>
+              <img
+                src="./Assets/CapstoneSite - registerpage.jpg"
+                alt="User Registration Page"
+                class="capstonePic"
+                id="img3"
+                onclick="showModal3()"
+              />
+              <div id="modal3">
+                <span class="close" onclick="closeModal3()">&times;</span>
+                <img class="modal-pic" id="imgm3" />
+                <div id="caption">User Registration Page</div>
+              </div>
+            </aside>
           </div>
         </aside>
 
