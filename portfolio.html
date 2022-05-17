@@ -35,90 +35,180 @@
       </div>
     </header>
 
-    <main class="hi-there">
-      <div class="calign">
-        <h2>My Portfolio</h2>
+    <section class="portfolio-body">
+      <div><h2>My Portfolio</h2></div>
+
+      <div class="currentWork">
+        <h4 style="margin-left: 20px">What I'm Currently Working On:</h4>
+        <p>3D game developed in Unity</p>
       </div>
 
-      <h4>What I'm Currently Working On:</h4>
-      <p>3D game developed in Unity</p>
+      <h4 style="margin-left: 20px">What I've Finished:</h4>
 
-      <h4>What I've Finished:</h4>
-      <p>
-        <a href="https://kind-neumann-7868d1.netlify.app/" target="blank"
-          >The WWW Garage Sale</a
-        >
-        developed in Visual Studio Code using HTML, CSS, JavaScript, and React
-        fundamentals
-      </p>
-      <ul>
-        <li>built from the ground-up with React</li>
-        <li>
-          creates and stores user login information with unique bearer tokens
-        </li>
-        <li>
-          uses GET, POST, and other CRUD operations to fetch posts from an API
-        </li>
-        <li>
-          allows users to send messages directly to other users concerning posts
-          they might be interested in
-        </li>
-        <li>allows users to both create and delete posts</li>
-      </ul>
+      <div class="pastWork">
+        <aside class="projectBlurb">
+          <div class="details">
+            <h4 class="blurbTitle">
+              Fullstack Academy Capstone Project: "Plant-O-Licious"
+            </h4>
+            <ul>
+              <li>
+                developed in Visual Studio Code using HTML, CSS, JavaScript,
+                React, API with CRUD operations, and a backend database
+                constructed with PostgreSQL
+              </li>
+              <li>
+                built in a 3-person team in one and a half weeks in solo coding
+                sessions and through daily pair-programming sessions
+              </li>
+              <li>
+                designed site layout and functionality from the ground up based
+                on customer specs and "budget" (time) constraints
+              </li>
+              <li>
+                allows guests and registered users to fill their cart with
+                plants and check-out while a dedicated admin user has the
+                ability to create, edit, and delete products on the product page
+              </li>
+              <li>
+                unfortunately, persistent issues with deploying our site through
+                the program "Heroku" prevented the creation of a shareable URL -
+                I've attached a video to showcase our site's functionality
+                instead
+              </li>
+            </ul>
+          </div>
+        </aside>
 
-      <p>
-        <a href="https://distracted-sammet-dc56b8.netlify.app/" target="blank"
-          >Jelly Bean Mancala Boardgame</a
-        >
-        developed in Visual Studio Code using HTML, CSS, and JavaScript
-      </p>
-      <ul>
-        <li>allows two players to play mancala on the same screen</li>
-        <li>
-          color-coded UI and some rule implementation give feedback to players
-          when it is their turn
-        </li>
-        <li>
-          incorporates sound effects and music for a more enjoyable gameplay
-          experience
-        </li>
-      </ul>
+        <aside class="projectBlurb">
+          <div class="details">
+            <a
+              href="https://kind-neumann-7868d1.netlify.app/"
+              target="blank"
+              class="siteLink"
+              >The WWW Garage Sale</a
+            >
+            <ul>
+              <li>
+                developed in Visual Studio Code using HTML, CSS, JavaScript, and
+                React fundamentals
+              </li>
+              <li>built from the ground-up with React</li>
+              <li>
+                creates and stores user login information with unique bearer
+                tokens
+              </li>
+              <li>
+                uses GET, POST, and other CRUD operations to fetch posts from an
+                API
+              </li>
+              <li>
+                allows users to send messages directly to other users concerning
+                posts they might be interested in
+              </li>
+              <li>allows users to both create and delete posts</li>
+            </ul>
+          </div>
+          <iframe
+            src="https://kind-neumann-7868d1.netlify.app/"
+            title="WWWGarageSaleSite"
+          ></iframe>
+        </aside>
 
-      <p>
-        <a href="https://inspiring-jones-f2a98a.netlify.app/" target="blank"
-          >Greek Mythology Guessing Game</a
-        >
-        developed in Visual Studio Code using HTML, CSS, and JavaScript
-      </p>
+        <aside class="projectBlurb">
+          <div class="details">
+            <a
+              href="https://distracted-sammet-dc56b8.netlify.app/"
+              target="blank"
+              class="siteLink"
+              >Jelly Bean Mancala Boardgame</a
+            >
+            <ul>
+              <li>
+                developed in Visual Studio Code using HTML, CSS, and JavaScript
+              </li>
+              <li>allows two players to play mancala on the same screen</li>
+              <li>
+                color-coded UI and some rule implementation give feedback to
+                players when it is their turn
+              </li>
+              <li>
+                incorporates sound effects and music for a more enjoyable
+                gameplay experience
+              </li>
+            </ul>
+          </div>
+          <iframe
+            src="https://distracted-sammet-dc56b8.netlify.app/"
+            title="MancalaGameSite"
+          ></iframe>
+        </aside>
 
-      <p>
-        <a
-          href="https://compassionate-montalcini-efa474.netlify.app/"
-          target="_blank"
-          >Online Shopping Webpage</a
-        >
-        developed in Visual Studio Code using HTML and CSS
-      </p>
+        <aside class="projectBlurb">
+          <div class="details">
+            <h4 style="margin-left: 20px" style="font-size: 20px">
+              2D "Shooting Gallery" Game
+            </h4>
+            <ul>
+              <li>developed in Unity using multiple C# scripts</li>
+              <li>
+                begins the game on a "start" screen that can transisition to the
+                game itself or quit the application
+              </li>
+              <li>all 2D assets were created in Krita</li>
+              <li>
+                cheerful music and rudamentary sound effects tie the whole
+                gameplay experience together
+              </li>
+            </ul>
+          </div>
+          <video controls>
+            <source
+              src="./Assets/Other Projects 2022.01.29 - 19.00.47.01.mp4"
+            />
+            Your browser does not support this video tag.
+          </video>
+        </aside>
 
-      <p>
-        2D "Shooting Gallery" Game developed in Unity using multiple C# scripts
-      </p>
-      <ul>
-        <li>
-          begins the game on a "start" screen that can transisition to the game
-          itself or quit the application
-        </li>
-        <li>all 2D assets were created in Krita</li>
-        <li>
-          cheerful music and rudamentary sound effects tie the whole gameplay
-          experience together
-        </li>
-      </ul>
-      <video controls height="300">
-        <source src="./Other Projects 2022.01.29 - 19.00.47.01.mp4" />
-        Your browser does not support this video tag.
-      </video>
-    </main>
+        <aside class="projectBlurb">
+          <div class="details">
+            <a
+              href="https://inspiring-jones-f2a98a.netlify.app/"
+              target="blank"
+              class="siteLink"
+              >Greek Mythology Guessing Game</a
+            >
+            <ul>
+              <li>
+                developed in Visual Studio Code using HTML, CSS, and JavaScript
+              </li>
+            </ul>
+          </div>
+          <iframe
+            src="https://inspiring-jones-f2a98a.netlify.app/"
+            title="GuessingGameSite"
+          ></iframe>
+        </aside>
+
+        <aside class="projectBlurb">
+          <div class="details">
+            <a
+              href="https://compassionate-montalcini-efa474.netlify.app/"
+              target="_blank"
+              class="siteLink"
+              >Online Shopping Webpage</a
+            >
+            <ul>
+              <li>developed in Visual Studio Code using HTML and CSS</li>
+            </ul>
+          </div>
+          <iframe
+            src="https://compassionate-montalcini-efa474.netlify.app/"
+            title="QuirtySite"
+          ></iframe>
+        </aside>
+      </div>
+    </section>
 
     <footer>
       <a
@@ -139,7 +229,7 @@
           alt="facebook-logo-png-transparent-background"
           src="https://theacademy.la/wp-content/uploads/2017/04/facebook-logo-png-transparent-background.png"
       /></a>
-      <a href="./Lauren Smith Resume - 5_10_2022.pdf" target="_blank"
+      <a href="./Lauren Smith Resume - 5_17_2022.pdf" target="_blank"
         ><img
           border:0
           width="35px"

@@ -132,19 +132,6 @@ header {
   }
 }
 
-/* for About Me and My Portfolio pages */
-.hi-there {
-  align-items: flex-start;
-  flex-direction: column;
-  padding: 22px;
-}
-
-.hi-there a:visited {
-  background-color: transparent;
-  text-decoration: none;
-  color: rgb(28, 28, 207);
-}
-
 /* main formatting */
 main {
   background-color: rgb(132, 158, 197);
@@ -154,14 +141,80 @@ main {
   padding-left: 20px;
 }
 
+/* About Me */
+.hi-there {
+  flex-direction: column;
+  padding: 22px;
+}
+
+.aboutMeText {
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.hi-there a:visited {
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(28, 28, 207);
+}
+
+/* My Portfolio */
+.portfolio-body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(132, 158, 197);
+}
+
+.pastWork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectBlurb {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.details {
+  width: 600px;
+  margin-left: 30px;
+  background-color: rgb(226, 226, 226);
+  box-shadow: 3px 3px 3px black;
+  padding: 10px;
+}
+
+.siteLink {
+  text-decoration: none;
+  color: rgb(33, 95, 188);
+  font-size: 20px;
+}
+
+.siteLink:hover {
+  color: rgb(177, 208, 255);
+}
+
+iframe {
+  height: 400px;
+  width: 50%;
+}
+
 video {
-  margin-bottom: 20px;
-  margin-left: 60px;
+  height: 375px;
+  width: 50%;
 }
 
 @media screen and (max-width: 800px) {
   video {
     width: 385px;
+  }
+
+  iframe {
+    width: 50%;
   }
 }
 
@@ -184,7 +237,7 @@ video {
 
 ul {
   margin-left: 40px;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
